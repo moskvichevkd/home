@@ -72,7 +72,26 @@
 
     <div class="fence-slider">
 
+        <div class="fence-slider-container">
 
+            <div class="fence-slider-container-left">
+
+                <p class="fence-slider-text">Купить заборы под 
+                    ключ в Балаково</p>
+                <button class="fence-slider-btn"><p class="fence-slider-btn-text">Оставить заявку</p></button>    
+
+            </div>
+
+            <div class="fence-slider-container-right">
+
+                <img class="slider-circle-1" src="./img/slider-circle-img.png" alt="">
+                <img class="slider-circle-2" src="./img/slider-circle-img-2.png" alt="">
+                <img class="slider-circle-3" src="./img/slider-circle-img-2.png" alt="">
+                <img class="slider-circle-4" src="./img/slider-circle-img-2.png" alt="">
+
+            </div>
+
+        </div>
 
     </div>
 
@@ -80,11 +99,110 @@
 
         <div class="calculate-container">
 
-            <p class="calculate-container-title">Калькулятор стоимости</p>
+            <p class="calculate-text">Калькулятор стоимости</p>
 
-            <div class="calculate-main">
+            <div class="calculate-container-main">
 
-                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                <div class="calculate-container-small">
+
+                    <div class="calculate-container-small-upper">
+
+                        <div class="calculate-container-upper-long">
+
+                            <p class="calculate-long-text">Длина забора</p>
+                            <input class="range-slider" type="range">
+                            <p class="calculate-long-text">Высота</p>
+                            <input class="calculate-checkbox" type="checkbox" id="one">
+                            <label for="one">160</label>
+                            <input class="calculate-checkbox" type="checkbox" id="two">
+                            <label for="two">180</label>
+                            <input class="calculate-checkbox" type="checkbox" id="three">
+                            <label for="three">200</label>
+                            <input class="calculate-checkbox" type="checkbox" id="four">
+                            <label for="four">220</label>
+
+                        </div>
+
+                        <div class="calculate-container-upper-material">
+
+                            <p class="calculate-long-text">Материал</p>
+                            <input class="calculate-checkbox" type="checkbox" id="one">
+                            <label for="one">Профлист</label>
+                            <input class="calculate-checkbox" type="checkbox" id="two">
+                            <label for="two">Сетка</label>
+                            <input class="calculate-checkbox" type="checkbox" id="three">
+                            <label for="three">Поликарбонат</label>
+                            <input class="calculate-checkbox" type="checkbox" id="four">
+                            <label for="four">Шткатеник</label>
+                            <input class="calculate-checkbox" type="checkbox" id="one">
+                            <label for="one">3D-сетка</label>
+                            <input class="calculate-checkbox" type="checkbox" id="one">
+                            <label for="one">Дерево</label>
+
+                        </div>
+
+                        <div class="calculate-container-upper-pillars">
+
+                            <p class="calculate-long-text">Столбы из кирпича</p>
+                            <input class="range-slider" type="range">
+
+                        </div>
+
+                        <div class="calculate-container-upper-gates">
+
+                            <p class="calculate-long-text">Ворота</p>
+                            <input class="calculate-checkbox" type="checkbox" id="one">
+                            <label for="one">Автоматика</label>
+                            <input class="calculate-checkbox" type="checkbox" id="two">
+                            <label for="two">Ручные</label>
+                            <input class="calculate-checkbox" type="checkbox" id="three">
+                            <label for="three">Без ворот</label>
+
+                        </div>
+
+                        <div class="calculate-container-upper-gate">
+
+                            <p class="calculate-long-text">Калитка</p>
+                            <input class="calculate-checkbox" type="checkbox" id="one">
+                            <label for="one">Да</label>
+                            <input class="calculate-checkbox" type="checkbox" id="two">
+                            <label for="two">Нет</label>
+
+                        </div>
+
+                    </div>
+                    
+                    <div class="calculate-container-small-bottom">
+
+                        <div class="calculate-container-small-bottom-left">
+
+                            <p class="calculate-container-bottom-left-text">Ваше имя</p>
+                            <p class="calculate-container-bottom-left-phone-text">Телефон для связи</p>
+                            <button><p>Оставить заявку</p></button>
+
+                        </div>
+
+                        <div class="calculate-container-small-bottom-right">
+
+                            <div class="calculate-container-small-bottom-right-upper">
+
+                                <p class="calculate-container-small-bottom-right-upper-text">общая цена</p>
+                                <p class="calculate-container-small-bottom-right-upper-text-left">87135 руб.</p>
+
+                            </div>
+
+                            <div class="calculate-container-small-bottom-right-bottom">
+
+                                <p class="calculate-container-small-bottom-right-bottom-text">в рассрочку на 6 мес</p>
+                                <p class="calculate-container-small-bottom-right-bottom-text-left">4910 руб./мес</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
 
@@ -255,10 +373,21 @@
 
                 <div class="call-container-left-main">
 
-                    <input type="text">
-                    <input type="text">
-                    <button></button>
-                    <input type="text">
+                    <div class="call-container-left-main-small">
+
+                        <p class="calculate-container-bottom-left-text">Ваше имя</p>
+                        <p class="calculate-container-bottom-left-phone-text">Телефон для связи</p>
+                        <button class="call-application-btn"><p class="call-application-txt">Оставить заявку</p></button>
+
+                        <div class="call-captcha">
+
+                            <input type="checkbox" id="reCAP">
+                            <label for="reCAP">Я не робот</label>
+                            <img class="call-recaptcha" src="./img/call-captcha-img.png" alt="">
+
+                        </div>
+
+                    </div>
 
                 </div>
 
@@ -267,6 +396,71 @@
             <div class="call-container-right">
 
                 <img class="call-container-right_image" src="./img/call-container-right-img.png" alt="">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="reviews">
+
+        <div class="reviews-container-title">
+
+            <div class="reviews-container-title-small">
+
+                <button><p>Отзывы о нас</p></button>
+                <button><p>Оставить отзыв</p></button>    
+
+            </div>
+
+            <div class="reviews-container-title-bottom">
+
+                <img class="first-review" src="./img/first-review-img.png" alt="">
+                <img class="second-review" src="./img/second-review-img.png" alt="">
+                <img class="third-review" src="./img/third-review-img.png" alt="">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="about_us">
+
+        <div class="about_us-container">
+
+            <div class="about_us-container-top">
+
+                <div class="about_us-links">
+
+                    <a href="">Мы в Instagram — @lubimiydom71
+                    </a>
+                    <button><p>Подписаться</p></button>    
+
+                </div>
+            
+            </div>
+
+            <div class="about_us-container-bottom">
+
+                <div class="about_us-container-bottom-1">
+
+                    <img class="btn-arrow-left" src="./img/btn-arrow-left-img.png" alt="">
+
+                </div>
+
+                <div class="about_us-container-bottom-2">
+
+
+
+                </div>
+
+                <div class="about_us-container-bottom-3">
+
+                    <img class="btn-arrow-right" src="./img/btn-arrow-right-img.png" alt="">
+
+                </div>
 
             </div>
 
